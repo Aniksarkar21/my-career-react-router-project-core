@@ -2,7 +2,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { AiOutlineDollarCircle } from "react-icons/ai";
 import { Link } from "react-router-dom";
 const Job = ({ job }) => {
-    console.log(job)
+    // console.log(job)
     const {id, logo, job_responsibility, location, remote_or_onsite, salary, job_type, job_title, job_description, experiences, educational_requirements, company_name
     } = job;
     return (
